@@ -30,3 +30,8 @@ ul {
     /* justify-content: space-around; */
     gap: 21px;
 }
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
