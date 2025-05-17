@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: purple 2px solid;
+    /* font-family: monospace; */
 }
 
 body {
@@ -14,17 +15,25 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 340px;
 }
 
 .header-logo-links-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     height: 50px;
+}
+
+.header-logo {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .header-links {
     display: flex;
+    font-size: 20px;
 }
 
 ul {
@@ -41,6 +50,23 @@ a {
 
 .hero-content {
     display: flex;
+    justify-content: space-around;
+    height: 200px;
 }
 
 
+.random-information-section {
+    height: 300px;
+}
+
+.quote-container {
+    height: 260px;
+}
+
+.call-action-container {
+    height: 210px;
+}
+
+.footer {
+    height: 68px;
+}
