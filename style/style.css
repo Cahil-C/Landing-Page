@@ -5,5 +5,50 @@
 }
 
 .header-hero-container {
+    background-color: #165cac;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+/* Header Section */
+.header-container {
     background-color: #034694;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #FFD700;
+}
+
+.links-container ul {
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    color: #E8E8E8;
+}
+
+/* Heros Section */
+.hero-container {
+    border: 2px solid red;  /* Place holder to visualize */
+    display: flex;
+    /* align-items: stretch; */
+    gap: 60px;
+    height: 300px;
+    margin: 60px 30px;
+}
+
+.hero-container > div {
+    flex: 1;
+}
+
+.hero-text-signup, .hero-image-container {
+    border: 2px solid black;  /* Place holder to visualize */
 }
