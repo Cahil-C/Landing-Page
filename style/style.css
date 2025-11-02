@@ -60,7 +60,7 @@
 
 .hero-title {
     color: #FFD700;
-    font-size: 35px;
+    font-size: 24px;
     margin-bottom: 21px;
 }
 
@@ -90,5 +90,46 @@
 }
 
 /* Random Information Section */
+.random-information-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.random-information-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    border: 2px solid blue;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px;
+    /* border: 2px solid black; */
+}
+
+.img-box {
+    height: 280px;
+    width: 350px;
+    border: 4px solid black;
+    border-radius: 12px;
+}
+
+.box-information {
+    font-size: 18px;
+    text-align: center;
+    max-width: 350px;
+    margin-top: 10px;
+}
 
