@@ -15,7 +15,7 @@
 .header-container {
     background-color: #034694;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 30px;
     border-radius: 3px;
     align-items: center;
@@ -48,7 +48,7 @@
     border: 2px solid red;  /* Place holder to visualize */
     display: flex;
     gap: 60px;
-    margin: 60px 30px;
+    margin: 70px 0px 70px 70px;
     flex: auto;
     /* align-items: stretch; */
     /* height: 300px; */
@@ -118,7 +118,7 @@
 
 .card-container {
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 10px;
     flex-wrap: wrap;
     justify-content: center;
