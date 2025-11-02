@@ -147,29 +147,52 @@
 }
 
 /* Quote Section */
+
+/* Center the quote-container horizontally */
 .quote-section {
     display: flex;
     background-color: #E8E8E8;
     /* height: 260px; */
     padding: 100px 200px;
+    justify-content: center;
 }
 
+/* Flex grow to 0 to make the end of quote and author line up */
 .quote-container {
-    flex: auto;
+    border: 2px solid black;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid black; */
-    width: 1235px;
+    flex-grow: 0; 
 }
 
+/* Quote - Create space between quote and the author*/
 .quote-container > p {
     font-size: 35px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
 
+/* Author name - Align horizontally to the end of the container */
 .author {
     font-size: 20px;
     align-self: flex-end;
     color: #034694;
+}
+
+
+/* Call to Action */
+
+.call-to-action-section {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.call-to-action-section-container {
+    display: flex;
+    padding: 50px 100px;
+    border-radius: 7px;
+    background-color: #034694;
 }
